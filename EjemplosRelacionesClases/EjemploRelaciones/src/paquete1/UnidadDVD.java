@@ -3,21 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete1;
 
 public class UnidadDVD {
-
+    
     private String marca;
+    private double costo;
 
     public UnidadDVD(String a) {
         marca = a;
+       
+        
+        
+       
     }
 
     public void establecerMarca(String n) {
         marca = n;
+        
     }
 
     public String obtenerMarca() {
         return marca;
+        
     }
 }
